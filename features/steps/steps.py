@@ -14,6 +14,7 @@ def step_impl(context):
     assert (len(context.crupier.mano) == 2)
 
 
+
 @given('una {mano}')
 def step_impl(context, mano):
     context.crupier = Crupier()
